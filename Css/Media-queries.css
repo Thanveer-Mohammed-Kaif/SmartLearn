@@ -509,7 +509,7 @@ nav {
 }
 
 .resources-card img{
-  height: auto;
+  height: auto; 
 }
 .contact-hero {
   background: linear-gradient(#284292D6,#1D6697F0,#46A7A7BD),url(/Images/Contact-image/Contact-back.jpg);
