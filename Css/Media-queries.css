@@ -492,8 +492,8 @@ nav {
     font-size: 9.042vw;
     font-weight: 400;
 }
-.resources-card-head{
-  font-size: 3.042vw;
+.resources-card-text .resources-card-head{
+  font-size: 8.342vw;
   font-weight: 400;
   color: white;
 }
@@ -752,7 +752,11 @@ nav {
     text-align: center;
     font-size: 6.042vw;
   }
-
+.resources-card-text .resources-card-head{
+  font-size: 4.342vw;
+  font-weight: 400;
+  color: white;
+}
   .resources-text p {
     text-align: center;
     font-size: 3.042vw;
@@ -1320,6 +1324,11 @@ nav {
   }
   .resources-text{
   width: 100%;
+}
+.resources-card-text .resources-card-head{
+  font-size: 4.342vw;
+  font-weight: 400;
+  color: white;
 }
 
   .resources-arrows {

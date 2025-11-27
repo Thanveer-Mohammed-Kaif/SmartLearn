@@ -548,11 +548,13 @@ nav {
   font-weight: 400;
   color: #1D6697;
 }
-.resources-card-head{
-  font-size: 3.042vw;
+
+.resources-card-text .resources-card-head{
+  font-size: 2.342vw;
   font-weight: 400;
   color: white;
 }
+
 .resources-hero p{
   font-size: 1.042vw;
 }
