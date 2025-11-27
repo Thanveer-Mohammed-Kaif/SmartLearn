@@ -602,6 +602,11 @@ nav {
     border: none;
     border-bottom: 2px solid black;
 }
+.contact-box textarea{
+    padding:10px;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+}
 .phone-number button{
   padding: 0.521vw 2.604vw;
   background-color: transparent;
