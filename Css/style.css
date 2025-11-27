@@ -493,6 +493,42 @@ nav {
   padding: 30px;
   border-radius: 10px;
 }
+/* Position arrows around the slider */
+.responsive-4 {
+  position: relative;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius:100px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.slick-prev.custom-arrow {
+  left: -5px;
+}
+
+
+.slick-next.custom-arrow {
+  right: -5px;
+}
+
+.custom-arrow i {
+  font-size: 20px;
+}
+
+.custom-arrow:hover {
+  background: #000;
+}
+
 
 .course-card h4{
   font-size: 1.542vw;
