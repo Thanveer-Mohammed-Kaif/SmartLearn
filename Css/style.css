@@ -419,21 +419,29 @@ nav {
 .why-us-card li{
   font-size: 1.042vw;
 }
-.fac-card-1{
-    background: linear-gradient(#284292, #1d6697, #049c9d);
-   color: white;
-   height: 14.417vw;
-   border-radius: 20px;
+.fac-card-1 {
+  background: linear-gradient(#284292, #1d6697, #049c9d);
+  color: white;
+  height: 14.417vw;
+  border-radius: 20px;
+  overflow: hidden;
 }
-.faculties img{
+
+.faculties img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
-.fac-card-1 h1{
-  font-size: 2.342vw;
+
+.fac-card-1 h1 {
+  font-size: 2vw;
+  font-weight: 600;
 }
-.fac-card-1 p{
-  font-size: 1.342vw;
+
+.fac-card-1 p {
+  font-size: 1.1vw;
 }
+
 .memories {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
