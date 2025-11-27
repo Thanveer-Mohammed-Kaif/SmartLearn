@@ -503,8 +503,8 @@ nav {
   top: 50%;
   transform: translateY(-50%);
   border: none;
-  background: #222;
-  color: #fff;
+  background: #ffffff91;
+  color: black;
   padding: 20px;
   border-radius:100px;
   cursor: pointer;
@@ -525,9 +525,6 @@ nav {
   font-size: 20px;
 }
 
-.custom-arrow:hover {
-  background: #000;
-}
 
 
 .course-card h4{
