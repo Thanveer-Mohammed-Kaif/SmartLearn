@@ -2131,7 +2131,7 @@ nav {
 .about-hero {
   background: linear-gradient(#284292, #1d6697, #049c9d);
   border-radius: 0px 0px 100px 100px;
-  height: 30vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
