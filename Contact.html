@@ -22,6 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/Css/style.css" />
     <link rel="stylesheet" href="/Css/Media-queries.css" />
     <link rel="stylesheet" href="/Css/slick.css" />
@@ -89,12 +90,13 @@
         </div>
       </div>
     </nav>
-
+<div class="text-center">
+  
     <div
       class="contact-hero d-flex justify-content-center align-items-center pb-5"
     >
       <div class="row col-lg-10 col-md-10 mx-auto justify-content-between">
-        <div class="col-lg-5 col-md-12 d-flex flex-column gap-4 p-5">
+        <div class="col-lg-5 col-md-12 d-flex flex-column gap-4 p-5" data-aos="fade-right">
           <div class="join-text">
             <h1>Join Us</h1>
             <p>
@@ -118,7 +120,7 @@
             <button>View map</button>
           </div>
         </div>
-        <div class="col-lg-5 col-md-12">
+        <div class="col-lg-5 col-md-12" ata-aos="fade-left">
           <div class="contact-box">
             <form action="" class="d-flex flex-column gap-5 p-5">
               <input type="text" placeholder="Enter Your Name" />
@@ -199,6 +201,7 @@
         </div>
       </div>
     </div>
+</div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script
       type="text/javascript"
@@ -215,5 +218,9 @@
     ></script>
     <script src="/Js/slick.js"></script>
     <script src="/Js/slick-min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>

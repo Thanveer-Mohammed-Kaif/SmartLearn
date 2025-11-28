@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Public Sans", sans-serif;
 }
+.text-center{
+  overflow: hidden;
+}
 nav {
   background-color: #ffffff;
   border-radius: 0 0px 20px 20px;

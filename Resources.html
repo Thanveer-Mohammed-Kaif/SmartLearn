@@ -22,6 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/Css/style.css" />
     <link rel="stylesheet" href="/Css/Media-queries.css" />
     <link rel="stylesheet" href="/Css/slick.css" />
@@ -89,9 +90,10 @@
         </div>
       </div>
     </nav>
-    <div class="resources-hero my-5">
+<div class="text-center">
+      <div class="resources-hero my-5">
       <div class="row col-10 mx-auto">
-        <div class="col-12">
+        <div class="col-12" data-aos="fade-up">
           <h1>Brochures</h1>
           <p>
             With some of Tamil Nadu's top CA faculty and state-of-the-art
@@ -100,7 +102,7 @@
           </p>
         </div>
       </div>
-      <div class="row col-lg-11 col-md-12 mx-auto mt-5">
+      <div class="row col-lg-11 col-md-12 mx-auto mt-5" data-aos="fade-right">
         <div class="responsive-4">
           <img
             src="/Images/Resources-images/Brouchers-1.jpg"
@@ -126,7 +128,7 @@
       </div>
 
       <div class="row col-10 mx-auto mt-5">
-        <div class="col-12">
+        <div class="col-12" data-aos="fade-up">
           <h1 class="resources-card-head">Demo Classes</h1>
           <p>
             With some of Tamil Nadu's top CA faculty and state-of-the-art
@@ -135,7 +137,7 @@
           </p>
         </div>
       </div>
-      <div class="row col-lg-11 col-md-12 mx-auto mt-5">
+      <div class="row col-lg-11 col-md-12 mx-auto mt-5" data-aos="fade-up">
         <div class="responsive-4">
           <div class="resources-card mx-4">
             <img
@@ -195,7 +197,7 @@
           </div>
         </div>
       </div>
-      <div class="row col-10 mx-auto mt-5">
+      <div class="row col-10 mx-auto mt-5" data-aos="fade-up">
         <div class="col-12">
           <h1>Other Videos</h1>
           <p>
@@ -205,7 +207,7 @@
           </p>
         </div>
       </div>
-      <div class="row col-10 mx-auto mt-5">
+      <div class="row col-10 mx-auto mt-5" data-aos="fade-right">
         <div class="col-lg-4 col-md-6">
           <div class="resources-card">
             <img
@@ -342,6 +344,7 @@
         </div>
       </div>
     </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script
@@ -359,5 +362,9 @@
     ></script>
     <script src="/Js/slick.js"></script>
     <script src="/Js/slick-min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
