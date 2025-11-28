@@ -33,6 +33,16 @@ nav {
   border-radius: 20px;
   height: 15.625vw;
 }
+.link-card{
+  background-color: white;
+  border-radius: 20px;
+}
+.link-card-text{
+  background-color: white;
+  border-radius: 0px 0 20px 20px;
+  font-size: 5.042vw;
+}
+
 .hero-img {
   height: 65.833vw;
   border-radius: 20px;
@@ -597,6 +607,16 @@ nav {
   border-radius: 20px;
   height: 20.625vw;
 }
+.link-card{
+  background-color: white;
+  border-radius: 20px;
+}
+.link-card-text{
+  background-color: white;
+  border-radius: 0px 0 20px 20px;
+  font-size: 5.042vw;
+}
+
 .hero-img {
   height: 32.833vw;
   border-radius: 20px;
@@ -1167,6 +1187,15 @@ nav {
   border-radius: 20px;
   height: 20.625vw;
 }
+.link-card{
+  background-color: white;
+  border-radius: 20px;
+}
+.link-card-text{
+  background-color: white;
+  border-radius: 0px 0 20px 20px;
+  font-size: 3.342vw;
+}
 .hero-img {
   height: 33.833vw;
   border-radius: 20px;
@@ -1715,6 +1744,15 @@ nav {
   height: 25.833vw;
   border-radius: 20px;
 }
+.link-card{
+  background-color: white;
+  border-radius: 20px;
+}
+.link-card-text{
+  background-color: white;
+  border-radius: 0px 0 20px 20px;
+  font-size: 2.042vw;
+}
 .about-img-1 {
   position: absolute;
   z-index: 1;
@@ -1844,6 +1882,15 @@ nav {
 .hero iframe {
   border-radius: 20px;
   height: 15.625vw;
+}
+.link-card{
+  background-color: white;
+  border-radius: 20px;
+}
+.link-card-text{
+  background-color: white;
+  border-radius: 0px 0 20px 20px;
+   font-size: 2.042vw;
 }
 .hero-img {
   height: 22.833vw;
