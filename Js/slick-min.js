@@ -176,3 +176,19 @@ $(document).on("click", ".slick-prev-custom", function () {
 $(document).on("click", ".slick-next-custom", function () {
   $(".responsive-5").slick("slickNext");
 });
+
+ $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
