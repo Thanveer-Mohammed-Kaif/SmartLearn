@@ -190,7 +190,7 @@ nav {
   padding: 0.521vw 4.125vw;
 }
 .our-course-card .card-1 {
-  background: linear-gradient(#284292, #1d6697, #049c9d);
+  background: #1D8CBB;
   border-radius: 20px;
   color: white;
   text-align: center;
@@ -387,6 +387,11 @@ nav {
   font-weight: 700;
   text-transform: uppercase;
 }
+.sle{
+  background: -webkit-linear-gradient(#284292, #1D6697, #049C9D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .welcome p{
   font-size: 1.042vw;
 }
@@ -431,13 +436,13 @@ nav {
 }
 .why-us-card .why-icon img {
   width: 7.813vw;
+  filter: invert(100%);
 }
 .why-us-card li{
   font-size: 1.042vw;
 }
 .fac-card-1 {
-  background: linear-gradient(#284292, #1d6697, #049c9d);
-  color: white;
+  background: #D6F8F8;
   height: 14.417vw;
   border-radius: 20px;
   overflow: hidden;

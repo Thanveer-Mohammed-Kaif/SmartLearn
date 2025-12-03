@@ -47,8 +47,8 @@ $(".responsive-2").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
         dots: false,
         arrows: false,
