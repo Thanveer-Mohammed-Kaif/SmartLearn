@@ -20,9 +20,11 @@ nav {
 }
 .nav-link {
   text-transform: capitalize;
-
 }
-
+.active {
+ border-bottom: 3px solid #1d6697e0;
+ padding-bottom: 0px;
+}
 .nav-link-btn button {
   color: white;
   background-color: #1d6697;
