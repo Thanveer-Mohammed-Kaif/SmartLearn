@@ -124,9 +124,9 @@ $(document).ready(function () {
     speed: 800,
     dots: false,
     infinite: true,
-    autoplay: true,          // keep autoplay if you want
+    autoplay: false,       
     autoplaySpeed: 1500,
-    arrows: true,            // VERY IMPORTANT
+    arrows: true,  
 
     prevArrow:
       '<button type="button" class="slick-prev custom-arrow"><i class="fa-solid fa-chevron-left"></i></button>',
@@ -160,7 +160,7 @@ $(document).ready(function () {
 
 $(".responsive-5").slick({
   dots: false,
-  arrows: false, // hide default arrows
+  arrows: false,
   infinite: true,
   speed: 500,
   fade: true,
@@ -175,20 +175,4 @@ $(document).on("click", ".slick-prev-custom", function () {
 
 $(document).on("click", ".slick-next-custom", function () {
   $(".responsive-5").slick("slickNext");
-});
-
- $('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
 });
