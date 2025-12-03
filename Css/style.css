@@ -273,7 +273,13 @@ nav {
 .testimonals h4{
    font-size: 1.642vw;
 }
-
+.arrow-line{
+  width: 5px;
+  height: 60px;
+  position: relative;
+  z-index: 2;
+  background-color: #049c9d;
+}
 .contact-form {
  height: fit-content;
  padding: 100px 0;
