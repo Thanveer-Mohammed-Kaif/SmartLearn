@@ -2310,17 +2310,9 @@ nav {
   
 }
 
-  .fac-card-1 {
-    height: 14.417vw;
-  }
-
-  .fac-card-1 h1 {
-    font-size: 2vw;
-  }
-
-  .fac-card-1 p {
-    font-size: 1.1vw;
-  }
+.fac-card{
+  width: 200px;
+}
 
 .memories-1 {
   grid-column: span 6 / span 6;
