@@ -449,27 +449,6 @@ nav {
 .why-us-card li{
   font-size: 1.042vw;
 }
-.fac-card-1 {
-  background: #D6F8F8;
-  height: 14.417vw;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.faculties img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.fac-card-1 h1 {
-  font-size: 2vw;
-  font-weight: 600;
-}
-
-.fac-card-1 p {
-  font-size: 1.1vw;
-}
 
 .memories {
   display: grid;
